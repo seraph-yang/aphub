@@ -1,4 +1,5 @@
 import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
+import Link from 'next/link'
 
 function Demo() {
   return (
@@ -15,11 +16,11 @@ function Demo() {
         View a list of AP courses you're taking this year
       </Text>
       <Group sx={{ padding: 20 }} position="center">
-        <Button variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>AP Chem</Button>
-        <Button variant="gradient" gradient={{ from: 'teal', to: 'lime', deg: 105 }}>AP Human Geo</Button>
-        <Button variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>AP Calc BC</Button>
-        <Button variant="gradient" gradient={{ from: 'orange', to: 'red' }}>AP Music Theory</Button>
-        <Button variant="gradient" gradient={{ from: '#ed6ea0', to: '#ec8c69', deg: 35 }}>AP Spanish</Button>
+        <Link href="/profile"><Button variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>AP Chem</Button></Link>
+        <Link href="/profile"><Button variant="gradient" gradient={{ from: 'teal', to: 'lime', deg: 105 }}>AP Human Geo</Button></Link>
+        <Link href="/profile"><Button variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>AP Calc BC</Button></Link>
+        <Link href="/profile"><Button variant="gradient" gradient={{ from: 'orange', to: 'red' }}>AP Music Theory</Button></Link>
+        <Link href="/profile"><Button variant="gradient" gradient={{ from: '#ed6ea0', to: '#ec8c69', deg: 35 }}>AP Spanish</Button></Link>
       </Group>
       <Button variant="light" color="blue" fullWidth mt="md" radius="md">
         View All Courses
