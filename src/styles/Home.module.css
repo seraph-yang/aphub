@@ -11,6 +11,10 @@ color palatte:
 
 */
 
+.center {
+  text-align: center;
+  padding: 20px;
+}
 
 .padding {
   padding: 20px;

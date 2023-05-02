@@ -21,15 +21,14 @@ function Navbar() {
     <div className={styles.navbar}>
       <Menu shadow="md">
         <Menu.Target>
-          <Title className={classes.title}>
+          <Title color="white" className={classes.title}>
             APHub
           </Title>
         </Menu.Target>
         <Menu.Dropdown>
           <Menu.Label>Social</Menu.Label>
-          <Menu.Item component="a" href="https://instagram.com/seraph.yangg" icon={<IconBrandInstagram size={14} />}>Instagram</Menu.Item>
-          <Menu.Item component="a" href="https://github.com/seraph-yang"icon={<IconBrandGithub size={14} />}>Github</Menu.Item>
-          <Menu.Item component="a" href="https://linkedin.com/in/seraph-yang"icon={<IconBrandLinkedin size={14} />}>Linkedin</Menu.Item>
+          <Menu.Item component="a" href="https://instagram.com/ap.hub" icon={<IconBrandInstagram size={14} />}>Instagram</Menu.Item>
+          <Menu.Item component="a" href="https://github.com/aphub-main"icon={<IconBrandGithub size={14} />}>Github</Menu.Item>
         </Menu.Dropdown>
       </Menu>
       <div className={styles.right}>
